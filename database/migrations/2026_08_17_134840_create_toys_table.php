@@ -17,6 +17,9 @@ return new class extends Migration
         $table->decimal('precio', 8, 2);
         $table->enum('genero', ['nino', 'nina']);
         $table->string('imagen')->nullable();
+        $table->string('marca');
+        $table->string('edad');
+        $table->text('descripcion');
         $table->timestamps();
     });
 }

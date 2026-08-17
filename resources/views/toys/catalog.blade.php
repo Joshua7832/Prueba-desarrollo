@@ -136,11 +136,11 @@
                 <div class="toy-title"><strong>{{ $toy->nombre }}</strong></div>
                 
                 
-                <div class="toy-details"><strong>Marca:</strong> ToyWorld</div>
-                <div class="toy-details"><strong>Edad recomendada:</strong> 4 a 10 años</div>
+                <div class="toy-details"><strong>Marca:</strong> {{ $toy->marca }}</div>
+                <div class="toy-details"><strong>Edad recomendada:</strong> {{ $toy->edad }}</div>
                 
                 <div class="toy-description">
-                    Un juguete increíble diseñado para desarrollar la creatividad y brindar horas de diversión garantizada.
+                    {{ $toy->descripcion }}
                 </div>
 
                 <div class="price-container">

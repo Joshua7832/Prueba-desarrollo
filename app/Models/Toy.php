@@ -9,5 +9,5 @@ class Toy extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nombre', 'precio', 'genero', 'imagen'];
+    protected $fillable = ['nombre', 'precio', 'genero', 'imagen', 'marca', 'edad', 'descripcion'];
 }
